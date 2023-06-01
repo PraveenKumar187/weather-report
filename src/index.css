@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ 
+}
+.main
+{
+  height: 600px;
+  width: 500px;
+  background-color: rgb(219, 151, 151);
+  align-items: center;
+  position: relative;
+  left: 430px;
+  margin-top: 30px;
+}
+#c h2
+{
+  font-size: 25px;
+}
+#c span
+{
+  font-size: 15px;
+}
+.main img 
+{
+  height: 100px;
+  width: 100px;
+}
+#detail
+{
+  margin-top: 90px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: coral;
+  height: 100px;
+  width: 300px;
+  position: relative;
+  left: 100px;
+}
+input 
+{
+  font-size: 25px;
+  margin-top: 50px;
+  height: 50px;
+  width: 500px;
+  border-radius: 7px;
+  
+}
+button
+{
+  margin-top: 50px;
+  height: 50px;
+  width: 100px;
+  border-radius: 7px;
+  position: relative;
+  bottom: 3px;
+}
+#nav
+{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(212, 59, 59);
+  height: 50px;
+ 
+}
+#logo h5
+{
+  margin-top: 13px;
+}
+#sub 
+{
+  margin-top: 13px;
+}
+#login 
+{
+  margin-top: 13px;
+}
