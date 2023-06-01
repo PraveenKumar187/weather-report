@@ -46,7 +46,7 @@ const Homeweather = () => {
     return ( 
         <div>
             
-            <input type="text" ref={place} />
+            <input type="text" placeholder="enter place name " ref={place} />
             <button onClick={Weatherdetail}> submit</button>
           
 {
